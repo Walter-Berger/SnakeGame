@@ -1,4 +1,3 @@
-from pickle import TRUE
 from Snake.game import *
 from Snake.objects import *
 

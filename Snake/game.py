@@ -1,5 +1,3 @@
-from doctest import FAIL_FAST
-from pickle import FALSE
 from Snake.settings import *
 
 class Game:
