@@ -1,4 +1,4 @@
-from mimetypes import init
+from Snake.settings import *
 
 
 class Snake:

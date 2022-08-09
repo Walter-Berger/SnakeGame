@@ -1,5 +1,5 @@
-from game import *
-from objects import *
+from Snake.game import *
+from Snake.objects import *
 
 game = Game()
 
