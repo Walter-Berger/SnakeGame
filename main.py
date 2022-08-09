@@ -1,12 +1,11 @@
 from Game import *
 
-run = True
 game = Game()
 
-while run:
+while game.run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            run = False
+            game.run = False
     
     game.clock.tick(60)
 
