@@ -1,4 +1,5 @@
 from game import *
+from objects import *
 
 game = Game()
 
