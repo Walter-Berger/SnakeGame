@@ -8,8 +8,13 @@ class Game:
         self.clock = pygame.time.Clock()
         self.game_over = False
 
-        self.update
-        self.quit
+    def run(self):
+        while not self.game_over:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    self.game_over = True
+            
+            self.clock.tick(60)
 
     def update(self):
         pygame.display.flip()

@@ -3,11 +3,6 @@ from Snake.objects import *
 
 game = Game()
 
-while not game.game_over:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            game.game_over = True
-    
-    game.clock.tick(60)
-
+game.run()
+game.update()
 game.quit()
